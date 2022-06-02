@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400 !important;
+}
+
+p {
+  margin: 0px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secondary {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background {
+  background-image: url(https://www.saurabhkarwal.com/wp-content/uploads/2018/03/Background-opera-speeddials-community-web-simple-backgrounds-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar-container {
+  background-color: #FAFAFA;
+}
+
+.navbar,
+.dropdown-item {
+  background-color: #FAFAFA !important;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navbar-nav {
+  padding-left: 0px !important;
+  color: #737373;
+}
+
+.navbar-brand b {
+  color: #252b42;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar-nav .btn {
+  color: #96bb7c !important;
+  background-color: #FAFAFA;
+  border: none;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+.navbar-nav .btn:hover,
+.navbar-nav .btn:active,
+.navbar-nav .btn:focus,
+.navbar-nav .btn:focus-visible {
+  background-color: #FAFAFA !important;
+  border: none !important;
+}
+
+.card {
+  border-radius: 7px !important;
+  border-color: #FAFAFA !important;
+}
+
+.profile-actions a {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.btn {
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+.autocomplete {
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  width: 100%;
+  border: 1px solid #ced4da;
+}
+
+.autocomplete:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
